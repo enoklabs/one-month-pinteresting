@@ -13,7 +13,7 @@ class PinsController < ApplicationController
   end
 
   def new
-    @pin = Pin.new
+    @pin = current_user.pins.new
   end
 
   def edit
