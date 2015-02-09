@@ -26,7 +26,7 @@ gem 'bootstrap-sass'
 
 gem 'devise'
 
-gem 'paperclip', github: 'thoughtbot/paperclip'
+gem 'paperclip'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
